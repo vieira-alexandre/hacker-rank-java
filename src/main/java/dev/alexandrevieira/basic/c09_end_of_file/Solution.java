@@ -9,7 +9,6 @@ public class Solution {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
-
         StringBuilder sb = new StringBuilder();
 
         int count = 0;
@@ -23,7 +22,7 @@ public class Solution {
             sb.append("\n");
 
             line = bufferedReader.readLine();
-        }while (line != null);
+        } while (line != null);
 
         bufferedReader.close();
 

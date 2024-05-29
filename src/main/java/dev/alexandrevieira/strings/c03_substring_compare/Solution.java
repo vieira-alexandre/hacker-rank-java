@@ -21,8 +21,8 @@ public class Solution {
                 if (substring.compareTo(smallest) < 0) {
                     smallest = substring;
                 }
-                
-                if(substring.compareTo(largest) > 0) {
+
+                if (substring.compareTo(largest) > 0) {
                     largest = substring;
                 }
             }
@@ -36,7 +36,7 @@ public class Solution {
         String s = scan.next();
         int k = scan.nextInt();
         scan.close();
-      
+
         System.out.println(getSmallestAndLargest(s, k));
     }
 }

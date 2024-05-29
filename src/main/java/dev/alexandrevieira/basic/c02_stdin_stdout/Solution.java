@@ -1,6 +1,6 @@
 package dev.alexandrevieira.basic.c02_stdin_stdout;
 
-import java.util.*;
+import java.util.Scanner;
 
 public class Solution {
     public static void main(String[] args) {

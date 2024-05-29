@@ -1,7 +1,6 @@
 package dev.alexandrevieira.basic.c12_date_time;
 
 import java.io.*;
-
 import java.time.LocalDate;
 
 class Result {

@@ -35,7 +35,7 @@ public class Solution {
         int last = 0;
 
         for (int i = 0; i < n; i++) {
-            if(i == 0) {
+            if (i == 0) {
                 int value = a + b;
                 sb.append(value);
                 last = value;
