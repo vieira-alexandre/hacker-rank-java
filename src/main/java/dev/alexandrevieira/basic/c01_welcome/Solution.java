@@ -1,4 +1,4 @@
-package dev.alexandrevieira.c01_welcome;
+package dev.alexandrevieira.basic.c01_welcome;
 
 public class Solution {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package dev.alexandrevieira.c02_stdin_stdout;
+package dev.alexandrevieira.basic.c02_stdin_stdout;
 
 import java.util.*;
 
