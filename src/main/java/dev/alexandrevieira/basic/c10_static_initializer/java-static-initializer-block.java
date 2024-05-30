@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Solution {
+class Solution {
 
     private static final BufferedReader READER;
     private static final int B;

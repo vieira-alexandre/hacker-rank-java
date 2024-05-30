@@ -2,7 +2,7 @@ package dev.alexandrevieira.basic.c04_stdin_stdout_2;
 
 import java.util.Scanner;
 
-public class Solution {
+class Solution {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

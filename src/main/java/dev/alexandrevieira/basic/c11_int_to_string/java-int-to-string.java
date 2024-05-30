@@ -3,7 +3,7 @@ package dev.alexandrevieira.basic.c11_int_to_string;
 import java.util.*;
 import java.security.*;
 
-public class Solution {
+class Solution {
 
     public static void main(String[] args) {
 
