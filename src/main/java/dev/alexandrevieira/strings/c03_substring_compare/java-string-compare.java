@@ -2,7 +2,7 @@ package dev.alexandrevieira.strings.c03_substring_compare;
 
 import java.util.Scanner;
 
-public class Solution {
+class Solution {
 
     public static String getSmallestAndLargest(String s, int k) {
         String smallest = "";

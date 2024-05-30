@@ -2,7 +2,7 @@ package dev.alexandrevieira.strings.c05_anagram;
 
 import java.util.Scanner;
 
-public class Solution {
+class Solution {
 
     static boolean isAnagram(String a, String b) {
         String aLower = a.toLowerCase();

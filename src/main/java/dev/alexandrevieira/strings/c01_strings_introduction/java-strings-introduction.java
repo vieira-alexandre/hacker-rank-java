@@ -2,7 +2,7 @@ package dev.alexandrevieira.strings.c01_strings_introduction;
 
 import java.util.Scanner;
 
-public class Solution {
+class Solution {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

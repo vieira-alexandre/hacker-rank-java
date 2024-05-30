@@ -2,7 +2,7 @@ package dev.alexandrevieira.strings.c06_string_tokens;
 
 import java.util.Scanner;
 
-public class Solution {
+class Solution {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
