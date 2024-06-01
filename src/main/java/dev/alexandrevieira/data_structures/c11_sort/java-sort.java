@@ -6,9 +6,13 @@ import java.util.List;
 import java.util.Scanner;
 
 class Student {
-    private int id;
-    private String fname;
-    private double cgpa;
+    public static final Comparator<Student> COMPARATOR = Comparator.comparing(Student::getCgpa).reversed()
+            .thenComparing(Student::getFname)
+            .thenComparing(Student::getId);
+
+    private final int id;
+    private final String fname;
+    private final double cgpa;
 
     public Student(int id, String fname, double cgpa) {
         super();
@@ -30,20 +34,6 @@ class Student {
     }
 }
 
-class StudentComparator {
-    static Comparator<Student> compareByNameAndId() {
-        return (o1, o2) -> {
-            int compareCgpa = Double.compare(o1.getCgpa(), o2.getCgpa());
-            if (compareCgpa != 0) return compareCgpa * -1;
-
-            int compareName = o1.getFname().compareTo(o2.getFname());
-            if (compareName != 0) return compareName;
-
-            return Integer.compare(o1.getId(), o2.getId());
-        };
-    }
-}
-
 class Solution {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
@@ -62,7 +52,7 @@ class Solution {
             testCases--;
         }
 
-        studentList.sort(StudentComparator.compareByNameAndId());
+        studentList.sort(Student.COMPARATOR);
 
         for (Student st : studentList) {
             System.out.println(st.getFname());
